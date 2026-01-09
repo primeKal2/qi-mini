@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { X, HelpCircle } from "lucide-react";
 
 export default function ParetoChartInfo() {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
 
   return (
     <>
