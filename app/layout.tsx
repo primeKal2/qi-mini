@@ -34,9 +34,11 @@ export default function RootLayout({
       <body className="bg-gray-50 text-gray-900">
         <ThemeProvider
           attribute="class"
-          defaultTheme="system"
+          defaultTheme="light"
           enableSystem
           disableTransitionOnChange
+          //TODO: Configure all css to support dark mode
+          //TODO: set default to system when dark mode is ready
         >
           <main className="min-h-screen flex flex-col items-center">
             <div className="flex-1 w-full flex flex-col items-center">
